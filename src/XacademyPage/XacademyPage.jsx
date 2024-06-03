@@ -1,12 +1,12 @@
 import "./XacademyPage.css";
-import MeetTeam from "./../Components/Meet-team/MeetTeam";
-import EmpowerJourney from "../Components/EmpowerJourney/EmpowerJourney";
-import Certificate from "../Components/Certificate/Certificate.jsx";
-import Creativity from "../Components/Creativity/Creativity.jsx";
-import TheHeros from "../Components/TheHeros/TheHeros.jsx";
-import Feedback from "../Components/Feedback/Feedback.jsx";
-import Subsecribe from "../Components/Subsecribe/Subsecribe.jsx";
-import Footer from "../Components/Xa-Footer/Footer.jsx";
+import MeetTeam from "./../components/Meet-team/MeetTeam.jsx";
+import EmpowerJourney from "../components/EmpowerJourney/EmpowerJourney";
+import Certificate from "../components/Certificate/Certificate.jsx";
+import Creativity from "../components/Creativity/Creativity.jsx";
+import TheHeros from "../components/TheHeros/TheHeros.jsx";
+import Feedback from "../components/Feedback/Feedback.jsx";
+import Subsecribe from "../components/Subsecribe/Subsecribe.jsx";
+import Footer from "./../components/Xa-Footer/Footer.jsx";
 import { useState } from 'react';
 import { HeroXacademy } from "../components/HeroXacademy/Hero.jsx";
 
@@ -91,7 +91,7 @@ export const AcademyPage = () => {
         </div>
       </nav>
       <HeroXacademy />
-      <MeetTeam />
+      {/* <MeetTeam /> */}
       <EmpowerJourney />
       <Certificate />
       <Creativity />
